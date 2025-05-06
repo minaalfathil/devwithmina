@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f0e1d4; 
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    background-color: #e9cfc5; 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #3b2a2a; 
+}
+
+
+p {
+    font-size: 16px;
+    color: #333; 
+}
+
+
+.view-projects {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #d7a88a; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-projects:hover {
+    background-color: #c78a7e;
+}
+
+nav {
+    background-color: #F8E1D4; 
+    padding: 15px;
+    text-align: center; 
+    border-bottom: 2px solid #D7B9A9; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #4B3C3D; 
+    font-weight: bold; 
+    margin: 0 15px;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #CFA6A0; /* Color change on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav {
+        font-size: 14px; /* Smaller font on small screens */
+        padding: 10px; /* Less padding */
+    }
+
+    nav a {15px;
+}
+        margin: 0 10px; /* Less space between links */
+    }
+}
