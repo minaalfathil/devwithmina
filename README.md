@@ -1,1 +1,43 @@
-# devwithmina
+<html>
+    <head>
+        <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="summativec.css">
+        <title>
+          DevWithMina
+            
+        </title>
+    </head>
+    <body>  
+<nav>
+   
+  <a href="aboutme.html">About Me</a>
+    <a href="intrests.html">Interests/Hobbies</a>
+  <a href="goals.html">Goals</a>
+</nav>
+   <div class="container">
+  <h1>WELCOME TO DEVWITHMINA</h1>
+  <div class="content-box">
+      <img src="homepagepic.jpg" width="300" height="300">
+    
+    <div class="text-box">
+      <p>Hi! I’m Mina, a student who’s into tech, learning new things, and figuring out how everything connects — from code and design to ideas and everyday life. This space is where I share a bit about myself: my journey, my passions, and the goals that keep me motivated. Whether you’re here to learn more about my experiences, connect over shared interests, or just take a peek into my life, I’m glad you’re here!</p>
+    </div>
+  </div>
+   
+       <!--<button class="view-projects">VIEW PROJECTS</button>-->
+        <button class="view-projects" id="project">VEIW PROJECTS</button>
+       
+</div>
+    
+
+ <script>
+
+  document.getElementById('project').addEventListener('click', function() {
+
+    window.location.href = 'projects.html';
+
+  });
+        </script>
+    </body>
+</html>
