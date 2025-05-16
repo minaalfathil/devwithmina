@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <link rel="stylesheet" href="index.css">
+        <title> devwithMina </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </head>
+    <body>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#goals">Goals</a>
+            <a href="#projects">Projects</a>
+            </nav>
+     
+        <section class="home" id="home">
+            <div class="img">
+            <img src="homepage.jpg" width="600" height="600">
+                </div>
+            <h1>DEV<br>WITH<br>MINA</h1>
+            <h2>Hi, I'm <span style="color:#00ff7f"> Mina</span>!</h2>
+            <div class="intro">
+            <p>I’m a student who’s interested  in coding and tech. This space is where I share a bit about myself. My goals, hobbies, and some of my projects. </p>
+            </div>
+          </section>
+        <section class="about" id="about">
+
+           <h2>About Me</h2>
+           <div class="img">
+           <img src="about.jpg" width="400" height="500">
+               </div>
+           <p>I’m currently an IBDP student, starting my diploma on august. I’m also interested in tech and coding.</p>
+           <p><span style="color:#00ff7f">My IB Subjects:</span></p>
+           <ul class="list">
+               <li>English A SL</li>
+               <li>Arabic B HL</li>
+               <li>Math AA SL</li>
+               <li>Physics HL</li>
+               <li>Computer Science HL</li>
+               <li>Digital Society SL</li>
+           </ul>
+           <p>I’m also interested in tech and coding. my focus is on front-end and web development at the moment.</p>
+           <p>Apart from my studies and coding, I love to play tennis and go on hikes.</p>
+          </section>
+        
+        <section class="hobbies" id="hobbies">
+            <h2>Hobbies</h2>
+            <h3>Tech & Coding</h3>
+            <p>I like learning new programming languages and working on small projects to test out what I’ve learned. I enjoy figuring out how things work behind the scenes and using code to build something from scratch</p>
+            <div class="img1">
+            <img src="tennis.jpg" width="200" height="200">
+                </div>
+            <h3>Tennis</h3>
+            <p>I enjoy playing tennis when I can. It’s a fun way to stay active and take a break from screens. After spending a lot of time coding on my laptop, playing tennis helps me refresh when I start feeling drained from too much screen time. </p>
+            <div class="img">
+            <img src="hiking.jpg" width="182" height="298">
+                </div>
+            <h3>Hiking</h3>
+            
+            <p>I like going on hikes when the chance comes up, especially when I need a break from screens. Being outside and walking through nature helps clear my head. My longest hike so far was a 15km one to Wadi El-Karak</p>
+          </section>
+        <section class="goals" id="goals">
+            <h2>Goals</h2>
+            <h3>Short-term</h3>
+            <ul class="list">
+                <li>Learn Python, C#, SQL, java, Qt, and Dart.</li>
+                <li>Get comfortable with the basics of app and web development</li>
+                <li>Improve time management by trying out tools like Notion</li>
+                <li>Start going to tennis courses again</li>
+                <li>Go on a 20km hike</li>
+                </ul>
+            <h3>Long-term</h3>
+            <ul class="list">
+                <li>Major in <span style="color:#00ff7f">Data Science & Artificial Intelligence</span>.</li>
+                <li>Get comfortable with the basics of app and web development</li>
+                <li>Work in Amazon, Google, and Pinterest</li>
+                <li>SBuild a personal brand around tech</li>
+                <li>Eventually start a company that aligns with my vision of innovation for good</li>
+                </ul>
+
+          </section>
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+
+            <div>
+              <h3>Happy Tracker</h3>
+              <p>A project to track your mood. It gives you recommendations based on your mood.</p>
+            <div class="github-btn">
+              <button onclick="openProjectLink(0)">View code</button>
+              </div>
+            </div>
+            <script>
+                function openProjectLink(index) {
+          const projectLinks = [
+            "https://github.com/minaalfathil/HappyTracker.git",
+          ];
+          if (projectLinks[index]) {
+            window.open(projectLinks[index], "_blank");
+          } else {
+            console.error("Project link not found.");
+          }
+        }            </script>
+          </section>
+        </body>
+    </html>
+
+

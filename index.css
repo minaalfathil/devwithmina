@@ -1,0 +1,134 @@
+body {
+    background-color: #13171a;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 80px;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin-top: 50px;
+    color: #00ff7f;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+h2 {
+    color: #b0b4b7;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+h3 {
+    color: #00ff7f;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #13171a;
+    display: flex;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    height: 40px; /* Explicit height to ensure consistent calculation */
+}
+
+nav a {
+    color: #b0b4b7;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+    display: inline-flex;
+}
+
+nav a:hover {
+    color: #00ff7f;
+}
+
+section {
+    border-bottom: 2px solid #b0b4b7;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    scroll-margin-top: 60px;
+        
+        position: relative;
+        top: -60px;
+}
+
+.home {
+    background-color: #13171a;
+    height: 70vh;
+}
+
+.about {
+    background-color: #13171a;
+    height: 80vh;
+}
+
+.hobbies {
+    background-color: #13171a;
+    height: 80vh;
+}
+
+.goals {
+    background-color: #13171a;
+    height: 80vh;
+    
+}
+
+.projects {
+    background-color: #13171a;
+    height: 80vh;
+    border-bottom:none;
+}
+
+p {
+    color: #b0b4b7;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.list {
+    color: #b0b4b7;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.img {
+    float: right;
+    float: top;
+    margin-bottom: 90px;
+}
+
+.img1 {
+    float: left;
+    float: top;
+    margin-right: 50px;
+}
+.github-btn button {
+    background-color: #00ff7f;
+    color: #13171a;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.github-btn button:hover {
+    background-color: #b0b4b7;
+}
