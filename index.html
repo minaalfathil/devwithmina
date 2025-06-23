@@ -1,3 +1,5 @@
+
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -46,18 +48,23 @@
         
         <section class="hobbies" id="hobbies">
             <h2>Hobbies</h2>
+
+            <div class="img">
+            <img src="coding.jpg" width="200" height="200">
+            </div>
             <h3>Tech & Coding</h3>
             <p>I like learning new programming languages and working on small projects to test out what I’ve learned. I enjoy figuring out how things work behind the scenes and using code to build something from scratch</p>
+          
             <div class="img1">
             <img src="tennis.jpg" width="200" height="200">
                 </div>
             <h3>Tennis</h3>
             <p>I enjoy playing tennis when I can. It’s a fun way to stay active and take a break from screens. After spending a lot of time coding on my laptop, playing tennis helps me refresh when I start feeling drained from too much screen time. </p>
+            
             <div class="img">
             <img src="hiking.jpg" width="182" height="298">
                 </div>
             <h3>Hiking</h3>
-            
             <p>I like going on hikes when the chance comes up, especially when I need a break from screens. Being outside and walking through nature helps clear my head. My longest hike so far was a 15km one to Wadi El-Karak</p>
           </section>
         <section class="goals" id="goals">
@@ -65,7 +72,6 @@
             <h3>Short-term</h3>
             <ul class="list">
                 <li>Learn Python, C#, SQL, java, Qt, and Dart.</li>
-                <li>Get comfortable with the basics of app and web development</li>
                 <li>Improve time management by trying out tools like Notion</li>
                 <li>Start going to tennis courses again</li>
                 <li>Go on a 20km hike</li>
@@ -75,7 +81,7 @@
                 <li>Major in <span style="color:#00ff7f">Data Science & Artificial Intelligence</span>.</li>
                 <li>Get comfortable with the basics of app and web development</li>
                 <li>Work in Amazon, Google, and Pinterest</li>
-                <li>SBuild a personal brand around tech</li>
+                <li>Build a personal brand around tech</li>
                 <li>Eventually start a company that aligns with my vision of innovation for good</li>
                 </ul>
 
@@ -84,16 +90,40 @@
             <h2>Projects</h2>
 
             <div>
-              <h3>Happy Tracker</h3>
-              <p>A project to track your mood. It gives you recommendations based on your mood.</p>
+              <h3>Happy Tracker c++ edition</h3>
+              <p>A c++ moodtracker</p>
             <div class="github-btn">
               <button onclick="openProjectLink(0)">View code</button>
+              </div>
+            </div>
+            <div>
+              <h3>Happy Tracker python edition</h3>
+              <p>A python moodtracker with a reactnattive front-end (still in progress).</p>
+            <div class="github-btn">
+              <button onclick="openProjectLink(1)">View code</button>
+              </div>
+            </div>
+            <div>
+              <h3>Aesthetic Calculator</h3>
+              <p>A calculator website with simple arithmatic opperations</p>
+            <div class="github-btn">
+              <button onclick="openProjectLink(2)">View code</button>
+              </div>
+            </div>
+            <div>
+              <h3>Scientific Calculator</h3>
+              <p>C scientific caculator</p>
+            <div class="github-btn">
+              <button onclick="openProjectLink(3)">View code</button>
               </div>
             </div>
             <script>
                 function openProjectLink(index) {
           const projectLinks = [
             "https://github.com/minaalfathil/HappyTracker.git",
+            "https://github.com/minaalfathil/HappyTracker-python-backend-with-reactivenative-frontend.git",
+            "https://github.com/minaalfathil/simple-calculator-website.git",
+            "https://github.com/minaalfathil/c-calculator-.git",
           ];
           if (projectLinks[index]) {
             window.open(projectLinks[index], "_blank");
